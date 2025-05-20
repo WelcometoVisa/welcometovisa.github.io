@@ -14,10 +14,6 @@ header {
 }
 
 .logo {
-    max-width: 180px;
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem auto;
     width: 100px;
     height: auto;
     margin-bottom: 10px;
@@ -95,4 +91,11 @@ footer {
     margin-top: 0.5rem;
     font-weight: bold;
     color: #0a2342;
+}
+
+.logo-large {
+    max-width: 280px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
 }
