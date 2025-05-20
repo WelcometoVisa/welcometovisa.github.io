@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f7f9fc;
     margin: 0;
     padding: 0;
@@ -59,4 +59,36 @@ footer {
     line-height: 60px;
     text-decoration: none;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.slogan {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    color: #e0e0e0;
+}
+
+#testimonios {
+    background-color: #e8f0fe;
+    padding: 2rem;
+    text-align: center;
+}
+.testimonial {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.testimonial p {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #333;
+}
+.testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #0a2342;
 }
