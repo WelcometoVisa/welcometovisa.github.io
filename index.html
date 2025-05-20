@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Visa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
     <header>
+        <img src="logo.jpg" alt="Logo Welcome to Visa" class="logo">
         <h1>Welcome to Visa</h1>
         <p>Tu guía segura hacia tu próxima visa</p>
     </header>
@@ -47,29 +49,33 @@
 
     <section id="contacto">
         <h2>Contacto</h2>
-        <form>
+        <form action="https://wa.me/573105271325" target="_blank" method="get" onsubmit="return enviarWhatsApp();">
             <label for="nombre">Nombre completo:</label><br>
-            <input type="text" id="nombre" name="nombre"><br><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
 
             <label for="medio">¿Por qué medio deseas ser contactado?</label><br>
-            <select id="medio" name="medio">
-                <option value="whatsapp">WhatsApp</option>
-                <option value="correo">Correo</option>
-                <option value="llamada">Llamada</option>
+            <select id="medio" name="medio" required>
+                <option value="WhatsApp">WhatsApp</option>
+                <option value="Correo">Correo</option>
+                <option value="Llamada">Llamada</option>
             </select><br><br>
 
             <label for="mensaje">Mensaje adicional:</label><br>
             <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
 
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar por WhatsApp">
         </form>
         <p>Síguenos en redes:</p>
         <a href="https://www.instagram.com/WelcomeToVisa" target="_blank">Instagram</a><br>
-        <a href="https://wa.me/573105271325?text=Hola,%20quiero%20información%20sobre%20trámites%20de%20visa" target="_blank">WhatsApp</a>
+        <a href="https://wa.me/573105271325" target="_blank">WhatsApp directo</a>
     </section>
 
     <footer>
         <p>© 2025 Welcome to Visa</p>
     </footer>
+
+    <a href="https://wa.me/573105271325?text=Hola,%20deseo%20información%20sobre%20los%20trámites%20de%20visa" class="whatsapp-float" target="_blank">💬</a>
+
+    <script src="script.js"></script>
 </body>
 </html>
